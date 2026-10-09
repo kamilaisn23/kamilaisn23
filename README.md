@@ -16,7 +16,7 @@
 
 ## 🌸 A little about me
 
-Hi, I'm **Kamila Isnaini**! I'm a **D3 Informatics Management student at Politeknik Negeri Malang, PSDKU Kediri**.
+Hi, I'm **Kamila Isnaini**!
 
 I enjoy building practical web applications, designing thoughtful user experiences, and exploring data and applied machine learning. My project and organizational experience includes planning, implementation, teamwork, and technical problem solving.
 
