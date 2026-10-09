@@ -40,12 +40,6 @@ I enjoy building practical web applications, designing thoughtful user experienc
 
 </details>
 
-## 🌷 My learning journey
-
-**Politeknik Negeri Malang · PSDKU Kediri**  
-D3 Manajemen Informatika (Informatics Management)  
-**2024–present** · Currently studying
-
 ## 🐰 My little contribution garden
 
 <p align="center"><strong>Latest · last 12 months</strong></p>
