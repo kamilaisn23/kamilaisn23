@@ -1,112 +1,84 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Kamila Isnaini — web development, UI/UX and data" width="100%" />
+  <img src="assets/pink-banner.gif" alt="Kamila Isnaini's pink coding corner, with a typing greeting and a little walking bunny" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Informatics Management Student · Web Development · UI/UX · Data</strong><br />
+  <strong>🌷 Informatics Management Student · Web Development · UI/UX · Data 🌷</strong><br />
   Tulungagung, Indonesia
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:kamilaisnaini23@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="#selected-projects">Explore my work</a>
+  <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/">🎀 LinkedIn</a> &nbsp;♡&nbsp;
+  <a href="mailto:kamilaisnaini23@gmail.com">💌 Let's connect</a>
 </p>
 
----
+<p align="center"><img src="assets/pink-divider.svg" alt="" width="100%" /></p>
 
-## Hello, I'm Kamila
+## 🌸 A little about me
 
-I'm a **D3 Informatics Management student at Politeknik Negeri Malang, PSDKU Kediri**, with project experience in web development, UI/UX design, data integration, and applied machine learning.
+Hi, I'm **Kamila Isnaini**! I'm a **D3 Informatics Management student at Politeknik Negeri Malang, PSDKU Kediri**.
 
-I enjoy turning everyday workflows into practical digital tools: designing user flows, building transaction and inventory systems, organizing learning content, and exploring how data can support better decisions. My academic projects and organizational work have given me experience in planning, implementation, teamwork, and technical problem solving.
+I enjoy building practical web applications, designing thoughtful user experiences, and exploring data and applied machine learning. My project and organizational experience includes planning, implementation, teamwork, and technical problem solving.
 
-## Selected projects
+<p align="center"><em>a little curiosity, a little creativity, and one step at a time ♡</em></p>
 
-### PAK MUALIM · Environmental reporting portal
+## 🎀 My toolbox
 
-A Laravel application for SPPG wastewater reporting and monitoring at the Dinas Lingkungan Hidup Kabupaten Tulungagung. The portal brings together operator profiles, daily discharge records, laboratory reports, verification, mapping, and follow-up workflows.
-
-**Focus:** Laravel · Reporting workflows · Role-based access · Data management
-
-### Nescafe Outlet · E-commerce system
-
-**Web Developer · Academic project · 2025**
-
-Developed a Laravel e-commerce platform with end-to-end transaction workflows and real-time inventory management, keeping sales and stock records coordinated.
-
-**Focus:** Laravel · PHP · E-commerce · Inventory management
-
-### GoBeres · Multi-service app prototype
-
-**Project Lead & UI/UX Designer · Academic project · 2025**
-
-Initiated and designed a Figma prototype bringing cleaning, maintenance, and transportation services into one app. Created user flows and navigation to make multiple services easier to discover and use.
-
-**Focus:** Figma · Prototyping · User flows · UI/UX design
-
-### Coffee Roasting Classification · PKM research project
-
-**Machine Learning & Research Developer · Academic project · 2025**
-
-Developed a CNN-based coffee-roasting classification system integrated with capacitive sensor input and fuzzy logic to support analysis across variations in the data.
-
-**Focus:** CNN · Sensor integration · Fuzzy logic · Applied research
+<p align="center">
+  <img src="assets/pink-toolbox.svg" alt="Laravel, PHP, JavaScript, Figma, Python, Kotlin, MySQL, Git and GitHub" width="100%" />
+</p>
 
 <details>
-<summary><strong>More project experience</strong></summary>
+<summary><strong>🍓 Open my full toolkit</strong></summary>
 
-| Project | Role & year | Contribution |
-| --- | --- | --- |
-| **CDEdu TKA** — digital education for elementary through high school | Content Integration Developer · 2026 | Integrated a large question bank into the application's data structure to support fast, accurate access to learning material. |
-| **E-commerce Inventory** | Web Developer · 2025 | Built transaction automation and inventory-management workflows for an academic web-programming project. |
-| **Boarding House Management System** | Software Developer · 2025 | Developed a GUI application using data structures to organize, search, and update resident records. |
+- **Web:** Laravel, PHP, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Tailwind CSS.
+- **Mobile:** Kotlin, Android Studio.
+- **UI/UX:** Figma, prototyping, responsive design, user flows.
+- **Data:** Python, Pandas, NumPy, Matplotlib, SQL, advanced Excel.
+- **Databases:** MySQL, SQLite.
+- **Tools:** Git, GitHub, VS Code, Cisco Packet Tracer, Google Workspace.
 
 </details>
 
-## Technical toolkit
-
-| Area | Technologies & practices |
-| --- | --- |
-| **Web development** | Laravel, PHP, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Tailwind CSS |
-| **Mobile development** | Kotlin, Android Studio |
-| **UI/UX design** | Figma, prototyping, responsive design, user flows |
-| **Data & programming** | Python, Pandas, NumPy, Matplotlib, SQL, advanced Excel |
-| **Databases** | MySQL, SQLite |
-| **Tools** | Git, GitHub, VS Code, Cisco Packet Tracer, Google Workspace |
-
-## Education
+## 🌷 My learning journey
 
 **Politeknik Negeri Malang · PSDKU Kediri**  
-D3 Manajemen Informatika (Informatics Management) · **2024–present**
+D3 Manajemen Informatika (Informatics Management)  
+**2024–present** · Currently studying
 
-## Leadership & organization
+## 🧸 Beyond the keyboard
 
 **PPI Kabupaten Tulungagung · Youth & Sports Division**  
 Committee Chair (Ketua Pelaksana) · Term: **2025–2030**
 
-- Led the digitization of competition registration using a website and Google Forms to improve record keeping and reduce manual data-entry errors.
+Led the digitization of competition registration using a website and Google Forms to improve record keeping and reduce manual data-entry errors.
 
 **D3 Informatics Management Student Gathering**  
 Event Committee · **2024**
 
-- Organized the event rundown, designed games and group activities, and coordinated with presenters to support timely delivery.
+Organized the event rundown, designed games and group activities, and coordinated with presenters to support timely delivery.
 
-## Training
+## 📚 Little learning milestones
 
-| Program | Provider | Completed |
-| --- | --- | --- |
-| **Python Essentials 1** | Cisco Networking Academy × Python Institute | 29 August 2025 |
-| **Introduction to Cybersecurity** | Cisco Networking Academy | 18 June 2025 |
+**🐍 Python Essentials 1**  
+Cisco Networking Academy × Python Institute · **29 August 2025**
 
-## Working style & languages
+**🔐 Introduction to Cybersecurity**  
+Cisco Networking Academy · **18 June 2025**
 
-**Working style:** problem solving, project planning, clear communication, teamwork, leadership, and adaptability.
+## 💗 How I work
+
+Problem solving · Project planning · Clear communication · Teamwork · Leadership · Adaptability
 
 **Languages:** Indonesian (native) · English (professional working proficiency)
 
----
+<p align="center"><img src="assets/pink-divider.svg" alt="" width="100%" /></p>
 
-### Let's connect
+<p align="center">
+  <strong>💌 Let's make something lovely and useful</strong><br />
+  For project discussions or professional inquiries:<br />
+  <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/">LinkedIn</a> &nbsp;♡&nbsp;
+  <a href="mailto:kamilaisnaini23@gmail.com">kamilaisnaini23@gmail.com</a>
+</p>
 
-For project discussions or professional inquiries, reach me on [LinkedIn](https://www.linkedin.com/in/kamila-isnaini-2832a2319/) or at **[kamilaisnaini23@gmail.com](mailto:kamilaisnaini23@gmail.com)**.
+<p align="center"><sub>Thanks for stopping by my little coding corner 🌸</sub></p>
