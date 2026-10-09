@@ -59,15 +59,6 @@ const kamila = {
 
 </details>
 
-## 🏅 A little achievement shelf
-
-<p align="center">
-  <a href="https://github.com/kamilaisn23?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="GitHub Quickdraw achievement earned by kamilaisn23" width="96" /></a><br />
-  <strong>Quickdraw</strong><br />
-  <sub>A small milestone in my GitHub journey.</sub><br />
-  <a href="https://github.com/kamilaisn23?tab=achievements">View my GitHub achievements ↗</a>
-</p>
-
 ## 🐰 My little contribution garden
 
 <p align="center"><strong>Latest · last 12 months</strong></p>
