@@ -45,7 +45,7 @@ I enjoy building web and mobile applications, designing thoughtful interfaces, a
 <p align="center"><strong>Latest · last 12 months</strong></p>
 
 <p align="center">
-  <img src="assets/bunny-contributions.gif?v=772986165600" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
+  <img src="assets/bunny-contributions.gif?v=b8237aa4e43f" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
 </p>
 
 <p align="center"><a href="https://github.com/kamilaisn23#js-contribution-activity-description">View live contributions on GitHub ↗</a></p>
@@ -57,7 +57,7 @@ I enjoy building web and mobile applications, designing thoughtful interfaces, a
 <details>
 <summary><strong>🎀 2026 · click to view</strong></summary>
 
-<p align="center"><img src="assets/bunny-contributions-2026.gif?v=faedb68c0bf1" alt="Pink bunny contribution calendar for 2026" width="100%" /></p>
+<p align="center"><img src="assets/bunny-contributions-2026.gif?v=cb2e56377e43" alt="Pink bunny contribution calendar for 2026" width="100%" /></p>
 
 <p align="center"><a href="https://github.com/kamilaisn23?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">View 2026 on GitHub</a></p>
 
