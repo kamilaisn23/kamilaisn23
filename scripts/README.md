@@ -36,7 +36,7 @@ functions to change the wording, colors, or animation.
 
 The existing `build_bunny_calendar.py` fetches real contribution dates and counts
 from GitHub and generates the rolling calendar and yearly bunny calendars.
-The scheduled **Pink bunny contribution garden** workflow checks for updates every fifteen minutes and after pushes to `main`.
+The scheduled **Pink bunny contribution garden** workflow checks for updates every five minutes and after pushes to `main`.
 To refresh it manually, open that workflow in Actions and choose **Run workflow**.
 Unchanged calendars reuse their existing animations, so frequent checks do not create empty asset updates. A timestamp shows when each calendar was last rendered, and versioned image URLs refresh cached images after the data changes. GitHub scheduling and contribution processing can introduce delays; the README is a periodically updated snapshot.
 The banner generator does not need a GitHub token and does not read repository data.
