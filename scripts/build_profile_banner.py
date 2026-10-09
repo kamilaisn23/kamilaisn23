@@ -1,4 +1,4 @@
-"""Code-drawn pink banner: web, mobile, learning, and little dreams."""
+"""Code-drawn pink banner: curiosity, technology, and little dreams."""
 from pathlib import Path
 from io import BytesIO
 import argparse
@@ -58,14 +58,14 @@ def banner(frame):
     runner=-60+frame/(N-1)*1320
     float_hearts=''.join(heart(x,y-10*math.sin(phase+shift),s,.7) for x,y,s,shift in [(773,104,.38,0),(1080,71,.45,1.4),(1145,170,.3,2.3),(740,290,.35,3.5)])
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-    <title id="title">Kamila Isnaini · web, mobile, and little dreams</title><desc id="desc">Two playful pink bunnies with a laptop and phone. Exploring web and mobile development, learning to code, and growing toward my dreams.</desc>
+    <title id="title">Kamila Isnaini · technology, curiosity, and little dreams</title><desc id="desc">Two playful pink bunnies with a laptop and phone. Exploring technology with curiosity, learning to code, and growing toward my dreams.</desc>
     <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9fc"/><stop offset="1" stop-color="#f8dfed"/></linearGradient><radialGradient id="glow"><stop stop-color="#fffafd"/><stop offset="1" stop-color="#fff4fa" stop-opacity="0"/></radialGradient><pattern id="dot" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1" fill="#d990b0" opacity=".16"/></pattern></defs>
     <rect x="1" y="1" width="1198" height="398" rx="30" fill="url(#bg)" stroke="#f1c6dd" stroke-width="2"/><rect x="2" y="2" width="1196" height="396" rx="29" fill="url(#dot)"/>
     <ellipse cx="923" cy="184" rx="252" ry="170" fill="url(#glow)"/>
     <path d="M728 332Q913 305 1170 340" fill="none" stroke="#e9bdd3" stroke-width="1.5"/><path d="M40 378H1160" fill="none" stroke="#e7b8cf" stroke-width="1.5" stroke-dasharray="2 10" stroke-linecap="round"/>
     <text x="60" y="68" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3.3" fill="#b97298">WELCOME TO MY LITTLE CODING WORLD</text>
     <text x="56" y="146" font-family="Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2.6" fill="{INK}">Kamila Isnaini</text>
-    <text x="60" y="192" font-family="Arial, sans-serif" font-size="22" fill="#a66489">Exploring web &amp; mobile development</text>
+    <text x="60" y="192" font-family="Arial, sans-serif" font-size="22" fill="#a66489">Exploring technology, one little idea at a time</text>
     <text x="60" y="249" font-family="Consolas, monospace" font-size="17.5" fill="#b17294">{typed}</text>{caret}
     <g font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#aa668b"><rect x="60" y="283" width="162" height="34" rx="17" fill="#fff9fc" stroke="#edbfd6"/><text x="80" y="305">ALWAYS CURIOUS</text><rect x="234" y="283" width="158" height="34" rx="17" fill="#fff9fc" stroke="#edbfd6"/><text x="256" y="305">SMALL STEPS</text><rect x="404" y="283" width="150" height="34" rx="17" fill="#fff9fc" stroke="#edbfd6"/><text x="432" y="305">BIG DREAMS</text></g>
     <g transform="translate(903 187) scale(.86)">{bunny(frame)}</g><g transform="translate(1100 260) rotate({math.sin(phase)*3:.2f}) scale(.5)">{bunny(frame+18,'phone')}</g>

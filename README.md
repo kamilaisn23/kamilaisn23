@@ -1,26 +1,45 @@
 <p align="center">
-  <img src="assets/pink-banner.gif" alt="Kamila Isnaini's pink coding world: animated bunnies with a laptop and phone, learning web and mobile development and growing toward big dreams" width="100%" />
+  <img src="assets/pink-banner.gif?v=6e2d908f5464" alt="Kamila Isnaini's pink coding world: playful bunnies, curiosity about technology, and little steps toward big dreams" width="100%" />
 </p>
 
 <p align="center">
-  <strong>🌷 Web & Mobile Development · UI/UX · Always Learning 🌷</strong><br />
-  Tulungagung, Indonesia
+  <strong>🌷 Curious about code, creativity & everything tech 🌷</strong><br />
+  Learning a little, building a little, dreaming a lot.<br />
+  <sub>Tulungagung, Indonesia</sub>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/">🎀 LinkedIn</a> &nbsp;♡&nbsp;
-  <a href="mailto:kamilaisnaini23@gmail.com">💌 Let's connect</a>
+  <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/"><img src="assets/contact-linkedin.svg" alt="Connect with Kamila on LinkedIn" height="42" /></a>
+  <a href="mailto:kamilaisnaini23@gmail.com"><img src="assets/contact-email.svg" alt="Send Kamila an email" height="42" /></a>
 </p>
 
 <p align="center"><img src="assets/pink-divider.svg" alt="" width="100%" /></p>
 
 ## 🌸 A little about me
 
-Hi, I'm **Kamila Isnaini**!
+Hi, I'm **Kamila Isnaini**! Welcome to my little corner of GitHub.
 
-I enjoy building web and mobile applications, designing thoughtful interfaces, and turning ideas into useful experiences. I'm enthusiastic about learning to code, growing my skills, and working toward my dreams — one small step at a time.
+I'm curious about technology and love discovering how things work. From coding and design to data, automation, and ideas I haven't met yet, there's always something new to explore. I enjoy turning ideas into useful experiences and learning through small projects and practice.
 
-<p align="center"><em>a little curiosity, a little creativity, and one step at a time ♡</em></p>
+I'm excited to keep learning, grow as a developer, and build a successful future — one small step at a time. 🐰
+
+```javascript
+const kamila = {
+  mindset: "Curious, creative, and always learning",
+  exploring: ["Code", "Design", "Data", "AI", "Technology", "New ideas"],
+  approach: "Learn → try → build → improve",
+  dream: "Grow my skills and create things that make a difference",
+  littleJoy: "Pink things, cute bunnies, and tiny breakthroughs 🌷"
+};
+```
+
+## 🍓 My curiosity corner
+
+<p align="center">
+  <img src="assets/curiosity-corner.svg" alt="Areas I enjoy exploring: applications, design, data, AI and automation, systems, and whatever sparks my curiosity" width="100%" />
+</p>
+
+<p align="center"><em>Interests to explore, skills to grow, and lots of little discoveries along the way ♡</em></p>
 
 ## 🎀 My toolbox
 
@@ -39,6 +58,15 @@ I enjoy building web and mobile applications, designing thoughtful interfaces, a
 - **Tools:** Git, GitHub, VS Code, Cisco Packet Tracer, Google Workspace.
 
 </details>
+
+## 🏅 A little achievement shelf
+
+<p align="center">
+  <a href="https://github.com/kamilaisn23?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="GitHub Quickdraw achievement earned by kamilaisn23" width="96" /></a><br />
+  <strong>Quickdraw</strong><br />
+  <sub>A small milestone in my GitHub journey.</sub><br />
+  <a href="https://github.com/kamilaisn23?tab=achievements">View my GitHub achievements ↗</a>
+</p>
 
 ## 🐰 My little contribution garden
 
@@ -76,6 +104,12 @@ I enjoy building web and mobile applications, designing thoughtful interfaces, a
 
 <p align="center"><em>little hops, little progress, lots of pink ♡</em></p>
 
+## 🎈 Little steps, big dreams
+
+<p align="center">
+  <img src="assets/little-steps.svg" alt="My goals: learn with curiosity, build useful things, share and connect, and keep growing toward my dreams" width="100%" />
+</p>
+
 ## 💗 How I work
 
 Problem solving · Project planning · Clear communication · Teamwork · Leadership · Adaptability
@@ -84,9 +118,9 @@ Problem solving · Project planning · Clear communication · Teamwork · Leader
 
 <p align="center">
   <strong>💌 Let's make something lovely and useful</strong><br />
-  For project discussions or professional inquiries:<br />
+  I'm happy to connect, exchange ideas, and learn together.<br />
   <a href="https://www.linkedin.com/in/kamila-isnaini-2832a2319/">LinkedIn</a> &nbsp;♡&nbsp;
   <a href="mailto:kamilaisnaini23@gmail.com">kamilaisnaini23@gmail.com</a>
 </p>
 
-<p align="center"><sub>Thanks for stopping by my little coding corner 🌸</sub></p>
+<p align="center"><sub>Thanks for stopping by — may your next little idea become something wonderful 🌸</sub></p>
