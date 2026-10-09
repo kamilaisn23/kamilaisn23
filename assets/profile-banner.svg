@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title description">
+  <title id="title">Kamila Isnaini</title>
+  <desc id="description">Web development, UI/UX and data. A deep emerald banner with a connected interface diagram.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102d2b" />
+      <stop offset="1" stop-color="#194943" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#79cbb2" stop-opacity=".22" />
+      <stop offset="1" stop-color="#79cbb2" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#b9decd" opacity=".12" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="330" rx="22" fill="url(#background)" />
+  <rect width="1200" height="330" rx="22" fill="url(#dots)" />
+  <circle cx="1015" cy="110" r="340" fill="url(#glow)" />
+  <circle cx="1072" cy="170" r="216" fill="none" stroke="#a9d5c1" stroke-opacity=".1" />
+  <circle cx="1072" cy="170" r="175" fill="none" stroke="#a9d5c1" stroke-opacity=".1" />
+  <rect x="56" y="48" width="32" height="4" rx="2" fill="#bddec0" />
+  <text x="102" y="57" fill="#bdd9cf" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">DESIGN. BUILD. UNDERSTAND.</text>
+  <text x="54" y="145" fill="#f4f7ed" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Kamila Isnaini</text>
+  <text x="58" y="190" fill="#c1dcd0" font-family="Arial, sans-serif" font-size="21">Practical systems. Thoughtful user experiences.</text>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.3" fill="#d6e7db">
+    <rect x="58" y="236" width="187" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
+    <text x="80" y="260">WEB DEVELOPMENT</text>
+    <rect x="257" y="236" width="104" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
+    <text x="282" y="260">UI / UX</text>
+    <rect x="373" y="236" width="93" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
+    <text x="399" y="260">DATA</text>
+  </g>
+  <g fill="none" stroke="#9bcbb5" stroke-opacity=".42" stroke-width="2">
+    <path d="M842 161H803V96H765M987 188H1038V243H1080" />
+    <circle cx="765" cy="96" r="5" fill="#c7dfbd" />
+    <circle cx="1080" cy="243" r="5" fill="#c7dfbd" />
+  </g>
+  <g transform="translate(842 75)">
+    <rect width="202" height="169" rx="17" fill="#123932" stroke="#8fc3aa" stroke-opacity=".44" />
+    <path d="M0 38H202" fill="none" stroke="#8fc3aa" stroke-opacity=".25" />
+    <g fill="#b9d3bf">
+      <circle cx="19" cy="19" r="3" /><circle cx="31" cy="19" r="3" /><circle cx="43" cy="19" r="3" />
+    </g>
+    <path d="m48 77-18 17 18 17m30-42-14 50m29-42 18 17-18 17" fill="none" stroke="#d4e4bf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="134" y="72" width="46" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".56" />
+    <rect x="134" y="88" width="34" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".3" />
+    <rect x="134" y="104" width="42" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".3" />
+    <rect x="24" y="137" width="155" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".16" />
+  </g>
+  <g transform="translate(1004 49)">
+    <rect width="54" height="54" rx="14" fill="#c9ddbf" />
+    <path d="M17 34V23m10 11V15m10 19V27" fill="none" stroke="#235346" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <text x="58" y="305" fill="#9cbfb1" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.4">INFORMATICS MANAGEMENT · POLINEMA PSDKU KEDIRI</text>
+</svg>
