@@ -1,56 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title description">
-  <title id="title">Kamila Isnaini</title>
-  <desc id="description">Web development, UI/UX and data. A deep emerald banner with a connected interface diagram.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#102d2b" />
-      <stop offset="1" stop-color="#194943" />
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#79cbb2" stop-opacity=".22" />
-      <stop offset="1" stop-color="#79cbb2" stop-opacity="0" />
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#b9decd" opacity=".12" />
-    </pattern>
-  </defs>
-  <rect width="1200" height="330" rx="22" fill="url(#background)" />
-  <rect width="1200" height="330" rx="22" fill="url(#dots)" />
-  <circle cx="1015" cy="110" r="340" fill="url(#glow)" />
-  <circle cx="1072" cy="170" r="216" fill="none" stroke="#a9d5c1" stroke-opacity=".1" />
-  <circle cx="1072" cy="170" r="175" fill="none" stroke="#a9d5c1" stroke-opacity=".1" />
-  <rect x="56" y="48" width="32" height="4" rx="2" fill="#bddec0" />
-  <text x="102" y="57" fill="#bdd9cf" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">DESIGN. BUILD. UNDERSTAND.</text>
-  <text x="54" y="145" fill="#f4f7ed" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Kamila Isnaini</text>
-  <text x="58" y="190" fill="#c1dcd0" font-family="Arial, sans-serif" font-size="21">Practical systems. Thoughtful user experiences.</text>
-  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.3" fill="#d6e7db">
-    <rect x="58" y="236" width="187" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
-    <text x="80" y="260">WEB DEVELOPMENT</text>
-    <rect x="257" y="236" width="104" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
-    <text x="282" y="260">UI / UX</text>
-    <rect x="373" y="236" width="93" height="37" rx="18.5" fill="#ffffff" fill-opacity=".06" stroke="#b7d6c5" stroke-opacity=".23" />
-    <text x="399" y="260">DATA</text>
-  </g>
-  <g fill="none" stroke="#9bcbb5" stroke-opacity=".42" stroke-width="2">
-    <path d="M842 161H803V96H765M987 188H1038V243H1080" />
-    <circle cx="765" cy="96" r="5" fill="#c7dfbd" />
-    <circle cx="1080" cy="243" r="5" fill="#c7dfbd" />
-  </g>
-  <g transform="translate(842 75)">
-    <rect width="202" height="169" rx="17" fill="#123932" stroke="#8fc3aa" stroke-opacity=".44" />
-    <path d="M0 38H202" fill="none" stroke="#8fc3aa" stroke-opacity=".25" />
-    <g fill="#b9d3bf">
-      <circle cx="19" cy="19" r="3" /><circle cx="31" cy="19" r="3" /><circle cx="43" cy="19" r="3" />
-    </g>
-    <path d="m48 77-18 17 18 17m30-42-14 50m29-42 18 17-18 17" fill="none" stroke="#d4e4bf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-    <rect x="134" y="72" width="46" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".56" />
-    <rect x="134" y="88" width="34" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".3" />
-    <rect x="134" y="104" width="42" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".3" />
-    <rect x="24" y="137" width="155" height="7" rx="3.5" fill="#abcdbc" fill-opacity=".16" />
-  </g>
-  <g transform="translate(1004 49)">
-    <rect width="54" height="54" rx="14" fill="#c9ddbf" />
-    <path d="M17 34V23m10 11V15m10 19V27" fill="none" stroke="#235346" stroke-width="4" stroke-linecap="round" />
-  </g>
-  <text x="58" y="305" fill="#9cbfb1" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.4">INFORMATICS MANAGEMENT · POLINEMA PSDKU KEDIRI</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+      <title id="title">Kamila Isnaini's pink coding corner</title><desc id="desc">A bunny typing on a pink laptop, a small walking bunny, floating hearts and a typewriter greeting.</desc>
+      <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff4f8"/><stop offset="1" stop-color="#f7d6e5"/></linearGradient><pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#d58bab" opacity=".18"/></pattern></defs>
+      <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+      <rect width="1200" height="360" rx="24" fill="url(#dots)"/>
+      <circle cx="965" cy="161" r="132" fill="#fff7fa" opacity=".65"/>
+      <path d="M28 345H1172" stroke="#daa0bb" stroke-width="2" stroke-dasharray="3 9" stroke-linecap="round" opacity=".4"/>
+      <text x="60" y="61" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#b76c8c">HELLO, I'M</text>
+      <text x="56" y="137" font-family="Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2.3" fill="#87405f">Kamila Isnaini</text>
+      <text x="60" y="177" font-family="Arial, sans-serif" font-size="20" fill="#a36582">Informatics Management · Web · UI/UX · Data</text>
+      <text x="60" y="222" font-family="Consolas, monospace" font-size="18" fill="#b66f8e">learning, building &amp; a little pink magic.</text>
+      <g font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#a46381">
+        <rect x="60" y="250" width="142" height="32" rx="16" fill="#fff9fb" stroke="#e7b4ca"/><text x="87" y="271">LEARN &amp; GROW</text>
+        <rect x="214" y="250" width="148" height="32" rx="16" fill="#fff9fb" stroke="#e7b4ca"/><text x="234" y="271">CREATE &amp; CARE</text>
+      </g>
+      <g transform="translate(963 126) scale(.92)"><ellipse cx="0" cy="90" rx="118" ry="12" fill="#e4a6bf" opacity=".28"/>
+      <ellipse cy="42" rx="54" ry="50" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+      <g transform="translate(0 -0.78)">
+      <g stroke="#c681a0" stroke-width="2.5">
+        <ellipse cx="-26" cy="-60" rx="16" ry="42" transform="rotate(-11 -26 -60)" fill="#fffafb"/>
+        <ellipse cx="26" cy="-60" rx="16" ry="42" transform="rotate(11 26 -60)" fill="#fffafb"/>
+        <ellipse cx="-26" cy="-62" rx="7.5" ry="29" transform="rotate(-11 -26 -62)" fill="#f5c3d5" stroke="none"/>
+        <ellipse cx="26" cy="-62" rx="7.5" ry="29" transform="rotate(11 26 -62)" fill="#f5c3d5" stroke="none"/>
+        <ellipse cy="0" rx="60" ry="47" fill="#fffafb"/>
+      </g>
+      <ellipse cx="-35" cy="9" rx="12" ry="6" fill="#f5bacd"/>
+      <ellipse cx="35" cy="9" rx="12" ry="6" fill="#f5bacd"/>
+      <ellipse cx="-19" cy="-7" rx="4" ry="5" fill="#834963"/><ellipse cx="19" cy="-7" rx="4" ry="5" fill="#834963"/>
+      <path d="M-4 4q4-4 8 0l-4 5Z" fill="#c07694"/>
+      <path d="M0 9v5m0 0q-6 5-11 0m11 0q6 5 11 0" fill="none" stroke="#834963" stroke-width="2.5" stroke-linecap="round"/>
+      <g transform="translate(41 -36) rotate(15)" fill="#df88aa" stroke="#c06d92" stroke-width="1.5">
+        <path d="M0 0-18-10q-6 11 0 22Z"/><path d="M0 0 18-10q6 11 0 22Z"/><circle r="5" fill="#f8c5d8"/>
+      </g></g>
+      <rect x="-95" y="42" width="190" height="104" rx="12" fill="#eeb4cc" stroke="#c17c9c" stroke-width="2.5"/>
+      <path d="M-105 148h210l-9 9H-96Z" fill="#f7d1e2" stroke="#c17c9c" stroke-width="2.5"/>
+      <g transform="translate(0.00 77.00) scale(0.8)" opacity="1"><path d="M0 4C-9-5-17 3-12 10L0 21 12 10C17 3 9-5 0 4Z" fill="#fff5f8"/></g>
+      <ellipse cx="-58" cy="42.22" rx="17" ry="10" fill="#fffafb" stroke="#c681a0" stroke-width="2"/>
+      <ellipse cx="58" cy="43.78" rx="17" ry="10" fill="#fffafb" stroke="#c681a0" stroke-width="2"/></g>
+      <g transform="translate(1106.00 66.45) scale(0.65)" opacity="0.8"><path d="M0 4C-9-5-17 3-12 10L0 21 12 10C17 3 9-5 0 4Z" fill="#eaa0bf"/></g>
+      <g transform="translate(808.00 170.24) scale(0.47)" opacity="0.8"><path d="M0 4C-9-5-17 3-12 10L0 21 12 10C17 3 9-5 0 4Z" fill="#e9a3bd"/></g>
+      <path d="M800 66.0Q800 74 808.0 74Q800 74 800 82.0Q800 74 792.0 74Q800 74 800 66.0Z" fill="#c87395" opacity="0.5834220259843843"/>
+      <path d="M1130 210.5Q1130 219 1138.5 219Q1130 219 1130 227.5Q1130 219 1121.5 219Q1130 219 1130 210.5Z" fill="#c87395" opacity="0.8618033988749895"/>
+      <g transform="translate(740 256) scale(0.6)"><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(0)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(72)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(144)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(216)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(288)" fill="#efb1c7"/><circle r="6" fill="#fff0bd"/></g><g transform="translate(1125 292) scale(0.55)"><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(0)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(72)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(144)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(216)" fill="#efb1c7"/><ellipse cx="0" cy="-10" rx="7" ry="10" transform="rotate(288)" fill="#efb1c7"/><circle r="6" fill="#fff0bd"/></g>
+      <g transform="translate(667.00 317.88) scale(.32)"><ellipse cy="61" rx="41" ry="8" fill="#e3a2bb" opacity=".24"/>
+          <ellipse cy="39" rx="32" ry="37" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+          <ellipse cx="-20.828427124746188" cy="68" rx="15" ry="9" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+          <ellipse cx="20.828427124746188" cy="65.17157287525382" rx="15" ry="9" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+          <ellipse cx="-29" cy="32" rx="10" ry="17" transform="rotate(8.48528137423856 -29 32)" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+          <ellipse cx="29" cy="32" rx="10" ry="17" transform="rotate(-8.48528137423856 29 32)" fill="#fffafb" stroke="#c681a0" stroke-width="2.5"/>
+          
+      <g stroke="#c681a0" stroke-width="2.5">
+        <ellipse cx="-26" cy="-60" rx="16" ry="42" transform="rotate(-11 -26 -60)" fill="#fffafb"/>
+        <ellipse cx="26" cy="-60" rx="16" ry="42" transform="rotate(11 26 -60)" fill="#fffafb"/>
+        <ellipse cx="-26" cy="-62" rx="7.5" ry="29" transform="rotate(-11 -26 -62)" fill="#f5c3d5" stroke="none"/>
+        <ellipse cx="26" cy="-62" rx="7.5" ry="29" transform="rotate(11 26 -62)" fill="#f5c3d5" stroke="none"/>
+        <ellipse cy="0" rx="60" ry="47" fill="#fffafb"/>
+      </g>
+      <ellipse cx="-35" cy="9" rx="12" ry="6" fill="#f5bacd"/>
+      <ellipse cx="35" cy="9" rx="12" ry="6" fill="#f5bacd"/>
+      <ellipse cx="-19" cy="-7" rx="4" ry="5" fill="#834963"/><ellipse cx="19" cy="-7" rx="4" ry="5" fill="#834963"/>
+      <path d="M-4 4q4-4 8 0l-4 5Z" fill="#c07694"/>
+      <path d="M0 9v5m0 0q-6 5-11 0m11 0q6 5 11 0" fill="none" stroke="#834963" stroke-width="2.5" stroke-linecap="round"/>
+      <g transform="translate(41 -36) rotate(15)" fill="#df88aa" stroke="#c06d92" stroke-width="1.5">
+        <path d="M0 0-18-10q-6 11 0 22Z"/><path d="M0 0 18-10q6 11 0 22Z"/><circle r="5" fill="#f8c5d8"/>
+      </g>
+          <path d="M-24 24q24 15 48 0v12q-24 14-48 0Z" fill="#eea5c1"/>
+          <g transform="translate(0.00 35.00) scale(0.35)" opacity="1"><path d="M0 4C-9-5-17 3-12 10L0 21 12 10C17 3 9-5 0 4Z" fill="#fff6fb"/></g></g>
+    </svg>
