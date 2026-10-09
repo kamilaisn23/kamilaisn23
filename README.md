@@ -35,11 +35,32 @@ const kamila = {
 
 ## 🍓 My curiosity corner
 
+<p align="center"><em>A few things that spark my curiosity — and little places to explore them ♡</em></p>
+
 <p align="center">
-  <img src="assets/curiosity-corner.svg" alt="Areas I enjoy exploring: applications, design, data, AI and automation, systems, and whatever sparks my curiosity" width="100%" />
+  <a href="https://docs.python.org/3/tutorial/"><img src="assets/curiosity/code.svg?v=25fb4a91faae" alt="Code &amp; applications — open learning resources" width="270" /></a>
+  <a href="https://help.figma.com/hc/en-us"><img src="assets/curiosity/design.svg?v=25fb4a91faae" alt="Design &amp; experiences — open learning resources" width="270" /></a>
+  <a href="https://www.kaggle.com/learn"><img src="assets/curiosity/data.svg?v=25fb4a91faae" alt="Data &amp; problem solving — open learning resources" width="270" /></a>
+  <a href="https://developers.google.com/machine-learning/crash-course"><img src="assets/curiosity/ai.svg?v=25fb4a91faae" alt="AI &amp; automation — open learning resources" width="270" /></a>
+  <a href="https://www.netacad.com/"><img src="assets/curiosity/systems.svg?v=25fb4a91faae" alt="Systems &amp; technology — open learning resources" width="270" /></a>
+  <a href="https://github.com/explore"><img src="assets/curiosity/ideas.svg?v=25fb4a91faae" alt="Whatever sparks curiosity — open learning resources" width="270" /></a>
 </p>
 
-<p align="center"><em>Interests to explore, skills to grow, and lots of little discoveries along the way ♡</em></p>
+<p align="center"><sub>🐰 Tap a card to explore its learning resource.</sub></p>
+
+<details>
+<summary><strong>🌷 Open my little idea notebook</strong></summary>
+
+- **Code:** try building a small tool that makes an everyday task easier.
+- **Design:** sketch an interface, then explore how someone would use it.
+- **Data:** turn a small dataset into a chart and ask what it tells me.
+- **AI:** learn the basics, try an experiment, and understand its limitations.
+- **Systems:** explore how software, networks, and services fit together.
+- **New ideas:** discover a project, learn from it, and try something of my own.
+
+<em>Ideas to try, skills to grow, and lots of little discoveries along the way ♡</em>
+
+</details>
 
 ## 🎀 My toolbox
 
