@@ -48,9 +48,35 @@ D3 Manajemen Informatika (Informatics Management)
 
 ## 🐰 My little contribution garden
 
+<p align="center"><strong>Latest · last 12 months</strong></p>
+
 <p align="center">
   <img src="assets/bunny-contributions.gif" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
 </p>
+
+<p align="center"><strong>🌷 Choose a year</strong></p>
+
+<!-- bunny-years-start -->
+
+<details>
+<summary><strong>🎀 2026 · click to view</strong></summary>
+
+<p align="center"><img src="assets/bunny-contributions-2026.gif" alt="Pink bunny contribution calendar for 2026" width="100%" /></p>
+
+<p align="center"><a href="https://github.com/kamilaisn23?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">View 2026 on GitHub</a></p>
+
+</details>
+
+<details>
+<summary><strong>🎀 2025 · click to view</strong></summary>
+
+<p align="center"><img src="assets/bunny-contributions-2025.gif" alt="Pink bunny contribution calendar for 2025" width="100%" /></p>
+
+<p align="center"><a href="https://github.com/kamilaisn23?tab=overview&amp;from=2025-01-01&amp;to=2025-12-31">View 2025 on GitHub</a></p>
+
+</details>
+
+<!-- bunny-years-end -->
 
 <p align="center"><em>little hops, little progress, lots of pink ♡</em></p>
 

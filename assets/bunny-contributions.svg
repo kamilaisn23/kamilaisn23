@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="328" viewBox="0 0 1200 328" role="img" aria-labelledby="title desc">
       <title id="title">Kamila's pink contribution garden</title>
-      <desc id="desc">14 GitHub contributions in the rolling year ending 2026-10-09. A pink bunny hops across a calendar; cell colors reflect real contribution levels.</desc>
+      <desc id="desc">14 contributions in the last year. A pink bunny hops across a calendar; cell colors reflect real contribution levels. Updated 2026-10-09.</desc>
       <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff4f9"/><stop offset="1" stop-color="#f9dfeb"/></linearGradient><pattern id="dots" width="27" height="27" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#d999b6" opacity=".15"/></pattern></defs>
       <rect width="1200" height="328" rx="22" fill="url(#bg)"/><rect width="1200" height="328" rx="22" fill="url(#dots)"/>
       <g font-family="DejaVu Sans, Arial, sans-serif">
@@ -14,8 +14,8 @@
         <text x="914" y="303" font-size="12" fill="#ac6f8d">Less</text><rect x="956" y="291" width="15" height="15" rx="4" fill="#f6e0eb"/><rect x="978" y="291" width="15" height="15" rx="4" fill="#efbad1"/><rect x="1000" y="291" width="15" height="15" rx="4" fill="#e895b9"/><rect x="1022" y="291" width="15" height="15" rx="4" fill="#d673a3"/><rect x="1044" y="291" width="15" height="15" rx="4" fill="#b84a82"/><text x="1080" y="303" font-size="12" fill="#ac6f8d">More</text>
       </g>
       <g transform="translate(1142.00 41.00) scale(0.5)"><path d="M0 4C-9-5-17 3-12 10L0 21 12 10C17 3 9-5 0 4Z" fill="#e091b3"/></g>
-      <ellipse cx="604.00" cy="241" rx="15.00" ry="3.5" fill="#c781a1" opacity=".18"/>
-      <g transform="translate(604.00 207.00) scale(1.15)"><g stroke="#bc7497" stroke-width="1.5" fill="#fff9fc">
+      <ellipse cx="594.00" cy="241" rx="15.00" ry="3.5" fill="#c781a1" opacity=".18"/>
+      <g transform="translate(594.00 207.00) scale(1.15)"><g stroke="#bc7497" stroke-width="1.5" fill="#fff9fc">
       <ellipse cy="15" rx="10" ry="14"/>
       <ellipse cx="-7.000000000000002" cy="26" rx="6" ry="3.5" transform="rotate(-1.3226185430791413e-14 -7 26)"/>
       <ellipse cx="7.000000000000002" cy="26" rx="6" ry="3.5" transform="rotate(1.3226185430791413e-14 7 26)"/>
