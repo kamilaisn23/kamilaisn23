@@ -1,12 +1,14 @@
 """Render real GitHub contribution data as a pink calendar with a hopping bunny."""
 import argparse
 from datetime import date, datetime, timedelta, timezone
+import hashlib
 import html
 from io import BytesIO
 import json
 import math
 import os
 from pathlib import Path
+import re
 import urllib.request
 
 import resvg_py
@@ -14,6 +16,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
+STATE_PATH = ROOT / '.github/bunny-calendar-state.json'
 COLORS = ['#f6e0eb', '#efbad1', '#e895b9', '#d673a3', '#b84a82']
 LEVELS = {'NONE': 0, 'FIRST_QUARTILE': 1, 'SECOND_QUARTILE': 2, 'THIRD_QUARTILE': 3, 'FOURTH_QUARTILE': 4}
 FRAMES = 96
@@ -74,11 +77,10 @@ def bunny(frame):
     <g transform="translate(13 -11) rotate(10)" fill="#df87ab"><path d="M0 0-7-4v8ZM0 0 7-4v8Z"/><circle r="2.4" fill="#f9d3e3"/></g>
     <path d="M-8 12q8 5 16 0v4q-8 5-16 0Z" fill="#eda5c3"/>'''
 
-def render_svg(calendar, frame, year=None):
+def render_svg(calendar, frame, year=None, updated_at=None):
     days = [day for week in calendar['weeks'] for day in week['contributionDays']]
-    latest = max(day['date'] for day in days)
     today = datetime.now(PROFILE_TIMEZONE).date()
-    updated = today.isoformat() if year is not None else latest
+    updated = updated_at or datetime.now(PROFILE_TIMEZONE).strftime('%d %b %Y · %H:%M WIB')
     caption = f"{calendar['totalContributions']} contributions in {year}" if year else f"{calendar['totalContributions']} contributions in the last year"
     month_labels, cells = [], []
     seen = set()
@@ -122,7 +124,7 @@ def render_svg(calendar, frame, year=None):
       <g transform="translate({x:.2f} {207-hop:.2f}) scale(1.15)">{bunny(frame)}</g>
     </svg>'''
 
-def build(calendar, year=None):
+def build(calendar, year=None, updated_at=None):
     days = [d for w in calendar['weeks'] for d in w['contributionDays']]
     if not 50 <= len(calendar['weeks']) <= 54 or not days:
         raise ValueError('Expected a rolling-year contribution calendar.')
@@ -130,17 +132,38 @@ def build(calendar, year=None):
         raise ValueError('Contribution total does not match the daily data.')
     ASSETS.mkdir(exist_ok=True)
     suffix = f'-{year}' if year else ''
-    reference = Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=render_svg(calendar, 48, year)))).convert('RGB').quantize(colors=128)
-    frames = [Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=render_svg(calendar, n, year)))).convert('RGB').quantize(palette=reference, dither=Image.Dither.NONE) for n in range(FRAMES)]
+    updated_at = updated_at or datetime.now(PROFILE_TIMEZONE).strftime('%d %b %Y · %H:%M WIB')
+    reference = Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=render_svg(calendar, 48, year, updated_at)))).convert('RGB').quantize(colors=128)
+    frames = [Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=render_svg(calendar, n, year, updated_at)))).convert('RGB').quantize(palette=reference, dither=Image.Dither.NONE) for n in range(FRAMES)]
     transparent = frames[0].getpixel((0, 0))
     frames[0].save(ASSETS / f'bunny-contributions{suffix}.gif', save_all=True, append_images=frames[1:], duration=90, loop=0, disposal=1, optimize=True, transparency=transparent)
-    (ASSETS / f'bunny-contributions{suffix}.svg').write_text(render_svg(calendar, 48, year), encoding='utf-8')
+    (ASSETS / f'bunny-contributions{suffix}.svg').write_text(render_svg(calendar, 48, year, updated_at), encoding='utf-8')
     result = Image.open(ASSETS / f'bunny-contributions{suffix}.gif')
     assert result.n_frames == FRAMES and result.info.get('loop') == 0
     assert result.convert('RGBA').getpixel((0, 0))[3] == 0
     print(f"Rendered {calendar['totalContributions']} contributions across {len(calendar['weeks'])} weeks; {result.n_frames} animation frames.")
 
-def update_year_choices(years):
+def refresh_calendar(calendar, year, state):
+    key = str(year) if year is not None else 'latest'
+    today = datetime.now(PROFILE_TIMEZONE).date()
+    payload = {
+        'calendar': calendar,
+        'renderer': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+        'date': today.isoformat() if year is None or year >= today.year else None,
+    }
+    fingerprint = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
+    previous = state.get(key, {})
+    suffix = f'-{year}' if year else ''
+    assets_exist = all((ASSETS / f'bunny-contributions{suffix}.{extension}').exists() for extension in ('gif', 'svg'))
+    if previous.get('fingerprint') == fingerprint and assets_exist:
+        print(f"Unchanged {key}: {calendar['totalContributions']} contributions; reused existing animation.")
+        return fingerprint[:12]
+    updated_at = datetime.now(PROFILE_TIMEZONE).strftime('%d %b %Y · %H:%M WIB')
+    build(calendar, year, updated_at)
+    state[key] = {'fingerprint': fingerprint, 'updated_at': updated_at}
+    return fingerprint[:12]
+
+def update_year_choices(years, versions):
     readme_path = ROOT / 'README.md'
     if not readme_path.exists():
         return
@@ -153,12 +176,13 @@ def update_year_choices(years):
         panels.append(f'''<details>
 <summary><strong>🎀 {year} · click to view</strong></summary>
 
-<p align="center"><img src="assets/bunny-contributions-{year}.gif" alt="Pink bunny contribution calendar for {year}" width="100%" /></p>
+<p align="center"><img src="assets/bunny-contributions-{year}.gif?v={versions[str(year)]}" alt="Pink bunny contribution calendar for {year}" width="100%" /></p>
 
 <p align="center"><a href="https://github.com/kamilaisn23?tab=overview&amp;from={year}-01-01&amp;to={year}-12-31">View {year} on GitHub</a></p>
 
 </details>''')
     updated = readme.split(start, 1)[0] + start + '\n\n' + '\n\n'.join(panels) + '\n\n' + end + readme.split(end, 1)[1]
+    updated = re.sub(r'(src="assets/bunny-contributions\.gif)(?:\?v=[^"]*)?(\")', lambda match: match[1] + '?v=' + versions['latest'] + match[2], updated, count=1)
     if updated != readme:
         readme_path.write_text(updated, encoding='utf-8')
 
@@ -169,11 +193,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
     username = os.environ.get('PROFILE_USERNAME', 'kamilaisn23')
     data = json.loads(args.calendar.read_text(encoding='utf-8-sig')) if args.calendar else fetch_calendar(username, args.year)
-    build(data, args.year)
-    if not args.calendar and args.year is None:
+    if args.calendar or args.year is not None:
+        build(data, args.year)
+    else:
+        state = json.loads(STATE_PATH.read_text(encoding='utf-8')) if STATE_PATH.exists() else {}
+        previous_state = json.dumps(state, sort_keys=True)
+        versions = {'latest': refresh_calendar(data, None, state)}
         first_year = int(data['accountCreatedAt'][:4])
         current_year = datetime.now(PROFILE_TIMEZONE).year
         years = list(range(current_year, first_year - 1, -1))
         for year in years:
-            build(fetch_calendar(username, year), year)
-        update_year_choices(years)
+            versions[str(year)] = refresh_calendar(fetch_calendar(username, year), year, state)
+        update_year_choices(years, versions)
+        if json.dumps(state, sort_keys=True) != previous_state:
+            STATE_PATH.parent.mkdir(exist_ok=True)
+            STATE_PATH.write_text(json.dumps(state, indent=2) + '\n', encoding='utf-8')

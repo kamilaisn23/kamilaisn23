@@ -48,6 +48,8 @@ I enjoy building web and mobile applications, designing thoughtful interfaces, a
   <img src="assets/bunny-contributions.gif" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
 </p>
 
+<p align="center"><a href="https://github.com/kamilaisn23#js-contribution-activity-description">View live contributions on GitHub ↗</a></p>
+
 <p align="center"><strong>🌷 Choose a year</strong></p>
 
 <!-- bunny-years-start -->

@@ -2,7 +2,9 @@ name: Pink bunny contribution garden
 
 on:
   schedule:
-    - cron: '20 */6 * * *'
+    - cron: '7,22,37,52 * * * *'
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -30,7 +32,7 @@ jobs:
         run: python scripts/build_bunny_calendar.py
       - name: Save updated garden
         run: |
-          git add assets/bunny-contributions*.gif assets/bunny-contributions*.svg README.md
+          git add assets/bunny-contributions*.gif assets/bunny-contributions*.svg README.md .github/bunny-calendar-state.json
           if git diff --cached --quiet; then
             echo 'Garden is already up to date.'
             exit 0
