@@ -46,25 +46,13 @@ I enjoy building practical web applications, designing thoughtful user experienc
 D3 Manajemen Informatika (Informatics Management)  
 **2024–present** · Currently studying
 
-## 🧸 Beyond the keyboard
+## 🐰 My little contribution garden
 
-**PPI Kabupaten Tulungagung · Youth & Sports Division**  
-Committee Chair (Ketua Pelaksana) · Term: **2025–2030**
+<p align="center">
+  <img src="assets/bunny-contributions.gif" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
+</p>
 
-Led the digitization of competition registration using a website and Google Forms to improve record keeping and reduce manual data-entry errors.
-
-**D3 Informatics Management Student Gathering**  
-Event Committee · **2024**
-
-Organized the event rundown, designed games and group activities, and coordinated with presenters to support timely delivery.
-
-## 📚 Little learning milestones
-
-**🐍 Python Essentials 1**  
-Cisco Networking Academy × Python Institute · **29 August 2025**
-
-**🔐 Introduction to Cybersecurity**  
-Cisco Networking Academy · **18 June 2025**
+<p align="center"><em>little hops, little progress, lots of pink ♡</em></p>
 
 ## 💗 How I work
 

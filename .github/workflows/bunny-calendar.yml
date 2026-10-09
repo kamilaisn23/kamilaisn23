@@ -1,0 +1,41 @@
+name: Pink bunny contribution garden
+
+on:
+  schedule:
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pink-bunny-calendar
+  cancel-in-progress: false
+
+jobs:
+  update-garden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install animation renderer
+        run: python -m pip install -r scripts/bunny-requirements.txt
+      - name: Build garden from GitHub contribution data
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/build_bunny_calendar.py
+      - name: Save updated garden
+        run: |
+          git add assets/bunny-contributions.gif assets/bunny-contributions.svg
+          if git diff --cached --quiet; then
+            echo 'Garden is already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh pink bunny contribution garden'
+          git push
