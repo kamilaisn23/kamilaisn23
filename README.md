@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/pink-banner.gif" alt="Kamila Isnaini's pink coding corner, with a typing greeting and a little walking bunny" width="100%" />
+  <img src="assets/pink-banner.gif" alt="Kamila Isnaini's pink coding world: animated bunnies with a laptop and phone, learning web and mobile development and growing toward big dreams" width="100%" />
 </p>
 
 <p align="center">
-  <strong>🌷 Informatics Management Student · Web Development · UI/UX · Data 🌷</strong><br />
+  <strong>🌷 Web & Mobile Development · UI/UX · Always Learning 🌷</strong><br />
   Tulungagung, Indonesia
 </p>
 
@@ -18,7 +18,7 @@
 
 Hi, I'm **Kamila Isnaini**!
 
-I enjoy building practical web applications, designing thoughtful user experiences, and exploring data and applied machine learning. My project and organizational experience includes planning, implementation, teamwork, and technical problem solving.
+I enjoy building web and mobile applications, designing thoughtful interfaces, and turning ideas into useful experiences. I'm enthusiastic about learning to code, growing my skills, and working toward my dreams — one small step at a time.
 
 <p align="center"><em>a little curiosity, a little creativity, and one step at a time ♡</em></p>
 
