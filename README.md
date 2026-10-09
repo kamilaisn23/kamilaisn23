@@ -84,8 +84,6 @@ D3 Manajemen Informatika (Informatics Management)
 
 Problem solving · Project planning · Clear communication · Teamwork · Leadership · Adaptability
 
-**Languages:** Indonesian (native) · English (professional working proficiency)
-
 <p align="center"><img src="assets/pink-divider.svg" alt="" width="100%" /></p>
 
 <p align="center">
