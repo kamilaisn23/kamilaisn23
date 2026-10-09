@@ -51,3 +51,13 @@ This redraws the six curiosity cards, the learn/build/share/grow path, and the t
 contact buttons. These are interest and goal illustrations, not proficiency claims.
 The final SVGs are `curiosity-corner.svg`, `little-steps.svg`, `contact-linkedin.svg`,
 and `contact-email.svg` in `assets/`.
+
+### Clickable curiosity cards
+
+The generator also draws six separate 560 × 368 SVGs in `assets/curiosity/`.
+The profile README displays them as linked images at 270 px wide. Keeping each
+card separate lets normal inline layout wrap them into fewer columns on narrow
+screens. GitHub's image styles keep cards within the available content width.
+Each complete card links to the relevant learning resource; the idea notebook
+uses native `details`/`summary` for an expandable section. The original combined
+`curiosity-corner.svg` remains available for existing links.

@@ -28,6 +28,42 @@ topics = [
     ('systems', 'Systems & technology', 'How software, networks & tools connect'),
     ('ideas', 'Whatever sparks curiosity', 'Always room for something new'),
 ]
+
+# Individual image links can wrap naturally in a GitHub README, unlike a single
+# six-column image. Each SVG is drawn at twice its displayed width for clarity.
+CARD_TOPICS = [
+    ('code', 'Code & applications', ('Small tools, useful apps,', 'and ideas worth building.'), 'Explore Python', '#fff1f8'),
+    ('design', 'Design & experiences', ('Interfaces that feel lovely', 'and make sense to people.'), 'Explore Figma', '#fff4ef'),
+    ('data', 'Data & problem solving', ('Patterns, questions,', 'and little discoveries.'), 'Explore data', '#fff1f8'),
+    ('ai', 'AI & automation', ('Smarter tools, fresh ideas,', 'and curious experiments.'), 'Explore AI', '#f8f0fc'),
+    ('systems', 'Systems & technology', ('What connects software,', 'networks, and the cloud.'), 'Explore systems', '#fff5ef'),
+    ('ideas', 'Whatever sparks curiosity', ('A little inspiration for', 'whatever I build next.'), 'Find inspiration', '#fff1f8'),
+]
+
+def curiosity_card(index, icon, title, lines, cta, tint):
+    title, cta = html.escape(title), html.escape(cta)
+    subtitle = ''.join(f'<tspan x="32" dy="{0 if n == 0 else 37}">{html.escape(line)}</tspan>' for n, line in enumerate(lines))
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="368" viewBox="0 0 560 368" role="img" aria-labelledby="title desc">
+<title id="title">{title}</title><desc id="desc">{html.escape(' '.join(lines))} {cta}.</desc>
+<defs><linearGradient id="card" x2="1" y2="1"><stop stop-color="#fffdfd"/><stop offset="1" stop-color="{tint}"/></linearGradient><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.3" fill="#e7b6cf" opacity=".3"/></pattern></defs>
+<g transform="translate(0 12)">
+<rect x="2" y="2" width="556" height="340" rx="30" fill="url(#card)" stroke="#e9b5d0" stroke-width="2.5"/>
+<path d="M382 3h146q28 0 28 28v114q-145 0-174-142Z" fill="{tint}"/><path d="M383 3h145q28 0 28 28v114q-145 0-173-142Z" fill="url(#dots)"/>
+<circle cx="58" cy="55" r="28" fill="#f9dfed"/><g transform="translate(58 55) scale(.66)" fill="none" stroke="#ac6c92" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">{icons[icon]}</g>
+<text x="103" y="61" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#a3668b">LITTLE DISCOVERY {index + 1:02}</text>
+<g transform="translate(501 65) rotate(8)" fill="#fffafb" stroke="#c18aaa" stroke-width="2"><ellipse cx="-12" cy="-28" rx="7" ry="21" transform="rotate(-12 -12 -28)"/><ellipse cx="12" cy="-28" rx="7" ry="21" transform="rotate(12 12 -28)"/><ellipse rx="28" ry="23"/><g fill="#f4c7dc" stroke="none"><ellipse cx="-12" cy="-28" rx="3" ry="14" transform="rotate(-12 -12 -28)"/><ellipse cx="12" cy="-28" rx="3" ry="14" transform="rotate(12 12 -28)"/><ellipse cx="-17" cy="6" rx="6" ry="4"/><ellipse cx="17" cy="6" rx="6" ry="4"/></g><path d="M-12-1q4-5 8 0m8 0q4-5 8 0M-5 9q5 7 10 0" fill="none" stroke-linecap="round"/></g>
+<text x="32" y="129" font-family="Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="-.5" fill="#874468">{title}</text>
+<text x="32" y="182" font-family="Arial, sans-serif" font-size="28" fill="#94627f">{subtitle}</text>
+<rect x="32" y="261" width="{300 if icon=='systems' else 282}" height="51" rx="25.5" fill="#f8dfed" stroke="#e7b1cd"/>
+<text x="54" y="295" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#8d4c70">{cta}</text><path d="M{291 if icon=='systems' else 273} 289h12m-5-5 5 5-5 5" stroke="#a96a8d" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M499 282c-12-16-30 2-13 16l13 11 13-11c17-14-1-32-13-16Z" fill="#edb8d2"/><path d="m452 263 3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1Z" fill="#edcbdc"/>
+</g></svg>'''
+
+card_dir = OUT/'curiosity'
+card_dir.mkdir(parents=True, exist_ok=True)
+for index, args in enumerate(CARD_TOPICS):
+    (card_dir/f'{args[0]}.svg').write_text(curiosity_card(index, *args), encoding='utf-8', newline='\n')
+
 body = '<rect x="1" y="1" width="1198" height="428" rx="26" fill="url(#bg)" stroke="#efc1d6" stroke-width="2"/>'
 body += '<text x="40" y="47" font-size="17" font-weight="700" letter-spacing="2.5" fill="#b16a8d">MY CURIOSITY CORNER</text><text x="40" y="79" font-size="17" fill="#aa7391">Things I enjoy exploring — with plenty of room to grow.</text>'
 for i, (icon, title, subtitle) in enumerate(topics):
