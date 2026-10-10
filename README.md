@@ -85,7 +85,7 @@ const kamila = {
 <p align="center"><strong>Latest · last 12 months</strong></p>
 
 <p align="center">
-  <img src="assets/bunny-contributions.gif?v=f7c2baa31a14" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
+  <img src="assets/bunny-contributions.gif?v=2803e8600c95" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
 </p>
 
 <p align="center"><a href="https://github.com/kamilaisn23#js-contribution-activity-description">View live contributions on GitHub ↗</a></p>
@@ -97,7 +97,7 @@ const kamila = {
 <details>
 <summary><strong>🎀 2026 · click to view</strong></summary>
 
-<p align="center"><img src="assets/bunny-contributions-2026.gif?v=951e4404ebbc" alt="Pink bunny contribution calendar for 2026" width="100%" /></p>
+<p align="center"><img src="assets/bunny-contributions-2026.gif?v=5f18b6bf7cb7" alt="Pink bunny contribution calendar for 2026" width="100%" /></p>
 
 <p align="center"><a href="https://github.com/kamilaisn23?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">View 2026 on GitHub</a></p>
 
