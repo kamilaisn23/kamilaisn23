@@ -85,7 +85,7 @@ const kamila = {
 <p align="center"><strong>Latest · last 12 months</strong></p>
 
 <p align="center">
-  <img src="assets/bunny-contributions.gif?v=14a0fb6028c9" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
+  <img src="assets/bunny-contributions.gif?v=e94234c3c66d" alt="My GitHub contribution calendar in pink, with a little bunny hopping across the days" width="100%" />
 </p>
 
 <p align="center"><a href="https://github.com/kamilaisn23#js-contribution-activity-description">View live contributions on GitHub ↗</a></p>
